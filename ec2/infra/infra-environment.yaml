@@ -1,0 +1,5 @@
+locals:
+  instance_type: t2.micro
+  ami_id: 
+  location: 
+  env: infra
