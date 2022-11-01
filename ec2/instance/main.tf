@@ -3,14 +3,14 @@ resource "random_id" "random" {
   
 }
 
-# terraform {
-#   backend "local" {
-#     path = "..//..//keystore//grunt//terraform.tfstate"
-#   }
-# }
+terraform {
+   backend "local" {
+     path = "..//..//..//..//terraform.tfstate"
+   }
+ }
 
 provider "vault" {
-  address = "http://43.205.217.73:8200"
+  address = "http://30.11.157.54:8200"
   token = "mysecrettoken"
 }
 #-----------------------------------------

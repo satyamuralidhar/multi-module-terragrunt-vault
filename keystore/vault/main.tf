@@ -1,5 +1,5 @@
 provider "vault" {
-  address = "http://43.205.217.73:8200"
+  address = "http://30.11.157.54:8200"
   token = "mysecrettoken"
 }
 resource "vault_aws_secret_backend" "aws" {
